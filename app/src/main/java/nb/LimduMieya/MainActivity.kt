@@ -101,15 +101,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun getGrade(value: String): Int {
-        val mValue = value.toInt()
-        var grade = 1
-        grade = if (mValue >= 0 && mValue <= 30) {
+        return try {
+            val mValue = value.toInt()
+            when {
+                mValue >= 0 && mValue <= 30 -> 1
+                mValue >= 31 && mValue <= 80 -> 2
+                mValue >= 81 && mValue <= 100 -> 3
+                else -> 4
+            }
+        } catch (e: NumberFormatException) {
+            // 숫자로 변환할 수 없는 경우, 기본값 1을 반환하거나 예외처리에 맞게 처리
             1
-        } else if (mValue >= 31 && mValue <= 80) {
-            2
-        } else if (mValue >= 81 && mValue <= 100) {
-            3
-        } else 4
-        return grade
+        }
     }
 }
