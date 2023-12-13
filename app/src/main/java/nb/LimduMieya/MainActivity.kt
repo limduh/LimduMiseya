@@ -100,6 +100,7 @@ class MainActivity : AppCompatActivity() {
         )
     }
 
+    //예외 처리랑,manifests 수정 23/12/13
     fun getGrade(value: String): Int {
         return try {
             val mValue = value.toInt()
