@@ -32,7 +32,7 @@
         app:spinner_item_array="@array/Sido"
         app:spinner_item_height="46dp"
         app:spinner_popup_animation="normal"
-        app:spinner_popup_background="#C779D5"
+        app:spinner_popup_background="#E2AEEC"
         app:spinner_popup_elevation="14dp"
         tools:ignore="HardcodedText,UnusedAttribute" />
 
