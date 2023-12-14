@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit
 
 object NetWorkClient {
 
-    private const val DUST_BASE_URL = "http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/" //호스트 주소(요청주소 앞에 있는거)
+    private const val DUST_BASE_URL = "https://apis.data.go.kr/B552584/ArpltnInforInqireSvc/" //호스트 주소(요청주소 앞에 있는거)
 
 
     private fun createOkHttpClient(): OkHttpClient {
