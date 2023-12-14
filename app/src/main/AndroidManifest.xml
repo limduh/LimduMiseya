@@ -4,8 +4,9 @@
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
+    <!-- <application내에 이걸 추가하면 된다. 테스트 모드에서만 해라 android:usesCleartextTraffic="true" -->
     <application
-        android:usesCleartextTraffic="true"
+
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
