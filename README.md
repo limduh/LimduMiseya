@@ -2,6 +2,9 @@
 
 ![limsea](https://github.com/limduh/LimduMiseya/assets/111894739/9831abb7-6efc-4f69-b53e-4d241f8e8303)
 
+# 개발기간
+23.11.27 ~ 23.12.4
+
 # Introduction
 - 공공데이터포털([[https://www.data.go.kr](https://www.data.go.kr/)])을 이용한 데이터를 바탕으로 특정 지역의 미세 먼지 수치, 등급을 알려주는 애플리케이션
 
