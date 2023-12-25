@@ -1,7 +1,7 @@
 # LimduMiseya
 
 # Wireframe
-
+![limsea](https://github.com/limduh/LimduMiseya/assets/111894739/9831abb7-6efc-4f69-b53e-4d241f8e8303)
 # Application Version
 
 - SDK version : Android 12
