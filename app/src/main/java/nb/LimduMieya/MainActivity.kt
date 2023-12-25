@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 4 -> {
-                    binding.mainBg.setBackgroundColor(Color.parseColor("#BB3320"))
+                    binding.mainBg.setBackgroundColor(Color.parseColor("#3d221f"))
                     binding.ivFace.setImageResource(R.drawable.verybad)
                     binding.tvP10grade.text = "매우나쁨"
                 }
